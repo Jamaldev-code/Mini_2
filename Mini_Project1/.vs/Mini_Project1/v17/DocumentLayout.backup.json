@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_project1\\mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_project1\\mini_project1\\methods\\appmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\methods\\appmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Appmanagement.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Methods\\Appmanagement.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Methods\\Appmanagement.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Methods\\Appmanagement.cs",
+              "RelativeToolTip": "Mini_Project1\\Methods\\Appmanagement.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T17:34:09.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Program.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Program.cs*",
+              "RelativeToolTip": "Mini_Project1\\Program.cs*",
+              "ViewState": "AgIAABkAAAAAAAAAAAAWwCoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T16:25:41.036Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
