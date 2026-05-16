@@ -1,4 +1,8 @@
-﻿using Mini_Project1.Models;
+﻿using Mini_Project1.Display;
+using Mini_Project1.Helpers;
+using Mini_Project1.Interfaces;
+using Mini_Project1.Models;
+using Mini_Project1.Repository;
 
 namespace Mini_Project1.Services
 {
@@ -6,33 +10,22 @@ namespace Mini_Project1.Services
     {
 
 
-        // Yaddaşdakı məhsul siyahısı.
-        // Tətbiq başlayanda fayldan yüklənir.
-        
+
+        private readonly IFileService _fileService;
         private List<Product> _products;
 
-        // ──────────────────────────────────────────────
-        //  Constructor
-        // ──────────────────────────────────────────────
 
-        /// <summary>
-        /// Servis yarananda mövcud məhsulları fayldan oxuyur.
-        /// </summary>
-        public ProductServices()
+        public ProductServices(IFileService fileService)
         {
-            // Fayl varsa mövcud məhsulları yüklə, yoxdursa boş siyahı başlat
-            _products = FileServices.Read<Product>(FileServices.ProductsFile);
+            _fileService = fileService;
+            _products = _fileService.Read<Product>(RepositoryPaths.Products);
         }
 
         // ──────────────────────────────────────────────
         //  Köməkçi (Helper) metodlar
         // ──────────────────────────────────────────────
 
-        /// <summary>
-        /// Yeni məhsul üçün unikal Id hesablayır.
-        /// Cari siyahıdakı max Id-dən 1 çox olur.
-        /// Siyahı boşdursa 1-dən başlayır.
-        /// </summary>
+       
         private Guid GetNextId()
         {
            return Guid.NewGuid();
@@ -43,7 +36,7 @@ namespace Mini_Project1.Services
         /// </summary>
         private void SaveToFile()
         {
-            FileServices.Write(FileServices.ProductsFile, _products);
+            _fileService.Write(RepositoryPaths.Products, _products);
         }
 
         /// <summary>
@@ -133,7 +126,7 @@ namespace Mini_Project1.Services
             SaveToFile();             // Fayla yaz
 
             Console.WriteLine($"\n[OK] Product created successfully.");
-            product.PrintInfo();
+            ConsoleRenderer.PrintProduct(product);
         }
 
         // ══════════════════════════════════════════════
@@ -195,7 +188,7 @@ namespace Mini_Project1.Services
             }
 
             Console.WriteLine();
-            product.PrintInfo();
+            ConsoleRenderer.PrintProduct(product);
         }
 
         // ══════════════════════════════════════════════
@@ -220,7 +213,7 @@ namespace Mini_Project1.Services
             foreach (var product in _products)
             {
                 Console.WriteLine("  ─────────────────────");
-                product.PrintInfo();
+                ConsoleRenderer.PrintProduct(product);
             }
 
             Console.WriteLine("  ─────────────────────");

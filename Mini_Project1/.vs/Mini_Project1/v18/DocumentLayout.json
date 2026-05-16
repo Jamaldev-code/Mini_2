@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\app\\appmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\app\\appmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\repository\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\repository\\products.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\constants\\repositorypaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\constants\\repositorypaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "products.json",
-              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Repository\\products.json",
-              "RelativeDocumentMoniker": "Mini_Project1\\Repository\\products.json",
-              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Repository\\products.json",
-              "RelativeToolTip": "Mini_Project1\\Repository\\products.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-16T20:35:18.548Z",
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Services\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
+              "RelativeToolTip": "Mini_Project1\\Services\\ProductServices.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T22:18:40.779Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileServices.cs",
-              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\FileServices.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Services\\FileServices.cs",
-              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\FileServices.cs",
-              "RelativeToolTip": "Mini_Project1\\Services\\FileServices.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Title": "Appmanagement.cs",
+              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\App\\Appmanagement.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\App\\Appmanagement.cs",
+              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\App\\Appmanagement.cs",
+              "RelativeToolTip": "Mini_Project1\\App\\Appmanagement.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T20:32:53.475Z",
+              "WhenOpened": "2026-05-16T23:39:58.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryPaths.cs",
+              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "RelativeToolTip": "Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-16T22:11:59.964Z",
               "EditorCaption": ""
             }
           ]
