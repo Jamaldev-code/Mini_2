@@ -8,44 +8,41 @@ namespace Mini_Project1.Models
 {
     internal class Order
     {
-        private static int _id;
 
-        public Guid Id { get; }
-        public List<OrderItem> Items { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+
+        public List<OrderItem> Items { get; set; } = new();
+
+        
+        // Bütün OrderItem-ların SubTotal cəmi.
+        // Sifariş yarananda hesablanıb saxlanır.
+        
         public decimal Total { get; set; }
-        public string Email { get; set; }
-        public OrderStatus Status { get; set; }
+
+        public string Email { get; set; } = string.Empty;
+
+        public OrderStatus Status { get; set; } = OrderStatus.Pending;
+
         public DateTime OrderedAt { get; set; }
-
-        public Order(string email, List<OrderItem> items)
-        {
-            Id = Guid.NewGuid();
-            Email = email;
-            Items = items;
-
-            Total = items.Sum(x => x.SubTotal);
-
-            Status = OrderStatus.Pending;
-
-            OrderedAt = DateTime.Now;
-        }
 
         public void PrintInfo()
         {
-            Console.WriteLine($"Order Id: {Id}");
-            Console.WriteLine($"Email: {Email}");
-            Console.WriteLine($"Status: {Status}");
-            Console.WriteLine($"Total: {Total}");
-            Console.WriteLine($"Ordered At: {OrderedAt}");
+            Console.WriteLine($"  Order ID  : {Id}");
+            Console.WriteLine($"  Email     : {Email}");
+            Console.WriteLine($"  Status    : {Status}");
+            Console.WriteLine($"  Ordered At: {OrderedAt:dd.MM.yyyy HH:mm}");
+            Console.WriteLine("  Items:");
 
-            foreach (OrderItem item in Items)
+            // Hər OrderItem-i sıra nömrəsi ilə çap edirik
+            for (int i = 0; i < Items.Count; i++)
             {
-                Console.WriteLine("----------------");
-                Console.WriteLine($"Product: {item.Product.Name}");
-                Console.WriteLine($"Count: {item.Count}");
-                Console.WriteLine($"Price: {item.Price}");
-                Console.WriteLine($"SubTotal: {item.SubTotal}");
+                var item = Items[i];
+                Console.WriteLine($"    {i + 1}) {item.Product.Name} x{item.ProductCount}" +
+                                  $"  @${item.Price:F2}  => SubTotal: ${item.SubTotal:F2}");
             }
+
+            Console.WriteLine($"  ─────────────────────────────");
+            Console.WriteLine($"  Total     : ${Total:F2}");
         }
     }
 }

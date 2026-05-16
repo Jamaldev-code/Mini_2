@@ -4,28 +4,24 @@ namespace Mini_Project1.Models
 {
     internal class Product
     {
-        private static int _id;
 
-        public int Id { get; set; }
-        public string Name { get; set; }
+        public Guid Id { get; } = Guid.NewGuid();
+
+        public string Name { get; set; } = string.Empty;
+
         public decimal Price { get; set; }
+
         public int Stock { get; set; }
-
-        public Product(string name, decimal price, int stock)
-        {
-            _id++;
-
-            Id = _id;
-            Name = name;
-            Price = price;
-            Stock = stock;
-        }
 
         public void PrintInfo()
         {
-            Console.WriteLine($"Id: {Id}, Name: {Name}, Price: {Price}, Stock: {Stock}");
+            // Stock 0 olduqda "Out of Stock", deyilsə say göstərilir
+            string stockDisplay = Stock == 0 ? "Out of Stock" : Stock.ToString();
 
+            Console.WriteLine($"  ID    : {Id}");
+            Console.WriteLine($"  Name  : {Name}");
+            Console.WriteLine($"  Price : ${Price:F2}");
+            Console.WriteLine($"  Stock : {stockDisplay}");
         }
-
     }
 }
