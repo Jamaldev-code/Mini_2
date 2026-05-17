@@ -1,0 +1,102 @@
+[
+  {
+    "Id": "ea1d50b1-75a7-47eb-a3b0-c2b521425f46",
+    "Items": [
+      {
+        "Id": "41a62675-717b-4bd9-b2e6-b65de0939e06",
+        "Product": {
+          "Id": "13a1ad31-44ad-41c3-9096-f55011e38595",
+          "Name": "Beer 1Lt",
+          "Price": 3,
+          "Stock": 8
+        },
+        "ProductCount": 1,
+        "Price": 3,
+        "SubTotal": 3
+      }
+    ],
+    "Total": 3,
+    "Email": "camal@gmail.com",
+    "PhoneNumber": "",
+    "Status": "Pending",
+    "OrderedAt": "2026-05-17T18:37:44.7861505+04:00"
+  },
+  {
+    "Id": "2b5cad01-e350-451e-8c2d-d09a36323f7b",
+    "Items": [
+      {
+        "Id": "88788b81-4bb9-451c-96c1-13c0edd8aea9",
+        "Product": {
+          "Id": "13a1ad31-44ad-41c3-9096-f55011e38595",
+          "Name": "Beer 1Lt",
+          "Price": 3,
+          "Stock": 8
+        },
+        "ProductCount": 2,
+        "Price": 3,
+        "SubTotal": 6
+      }
+    ],
+    "Total": 6,
+    "Email": "camal@gmail.com",
+    "PhoneNumber": "",
+    "Status": "Pending",
+    "OrderedAt": "2026-05-17T18:40:10.1827175+04:00"
+  },
+  {
+    "Id": "9a1b77c8-f616-41c1-87d4-8e8a4e199ea0",
+    "Items": [
+      {
+        "Id": "f8b8026f-666b-4959-b655-881cf1e82ae6",
+        "Product": {
+          "Id": "680ebb56-dd8f-4740-9139-3d4010fa18a4",
+          "Name": "Tea",
+          "Price": 1.5,
+          "Stock": 12
+        },
+        "ProductCount": 1,
+        "Price": 1.5,
+        "SubTotal": 1.5
+      },
+      {
+        "Id": "468ba336-c254-4815-857a-04472fb597a5",
+        "Product": {
+          "Id": "680ebb56-dd8f-4740-9139-3d4010fa18a4",
+          "Name": "Tea",
+          "Price": 1.5,
+          "Stock": 12
+        },
+        "ProductCount": 2,
+        "Price": 1.5,
+        "SubTotal": 3.0
+      }
+    ],
+    "Total": 4.5,
+    "Email": "camal@gmail.com",
+    "PhoneNumber": "",
+    "Status": "Pending",
+    "OrderedAt": "2026-05-17T19:19:18.0804887+04:00"
+  },
+  {
+    "Id": "498bdf62-5ed0-42d7-8750-639ec79de2d7",
+    "Items": [
+      {
+        "Id": "f82b01ee-be5a-464e-b324-5f2e7c9ee6bf",
+        "Product": {
+          "Id": "ad2fbd54-11c4-444e-969d-61aa9b1f03e1",
+          "Name": "Drink",
+          "Price": 0.8,
+          "Stock": 13
+        },
+        "ProductCount": 2,
+        "Price": 0.8,
+        "SubTotal": 1.6
+      }
+    ],
+    "Total": 1.6,
+    "Email": "camal@gmail.com",
+    "PhoneNumber": null,
+    "Status": "Confirmed",
+    "OrderedAt": "2026-05-17T20:26:31.9778197+04:00"
+  }
+]

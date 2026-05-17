@@ -1,17 +1,7 @@
 ﻿using Mini_Project1.Methods;
-namespace Mini_Project1
-{
-    internal class Program
-    {
+using Mini_Project1.Services;
 
-        //private static readonly string email;
-
-        static void Main(string[] args)
-        {
-            Appmanagement appmanagement = new();
-            appmanagement.Run();
-        }
-    }
-}
-
+FileServices fileService = new();
+Appmanagement app = new(fileService);
+app.Run();
 

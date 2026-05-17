@@ -1,4 +1,5 @@
 ﻿
+using Mini_Project1.Interfaces;
 using Mini_Project1.Services;
 using Mini_Project1.UI;
 
@@ -12,10 +13,10 @@ namespace Mini_Project1.Methods
         private readonly OrderServices _orderService;
 
 
-        public Appmanagement()
+        public Appmanagement(IFileService fileService)
         {
-            _productService = new ProductServices();
-            _orderService = new OrderServices(_productService);
+            _productService = new ProductServices(fileService);
+            _orderService = new OrderServices(fileService, _productService);
         }
 
         public void Run()

@@ -14,11 +14,12 @@ namespace Mini_Project1.Factories
                 SubTotal = product.Price * count
             };
 
-        public static Order CreateOrder(string email, List<OrderItem> items)
+        public static Order CreateOrder(string email, string phoneNumber, List<OrderItem> items)
             => new()
             {
                 Id = Guid.NewGuid(),
                 Email = email,
+                PhoneNumber = phoneNumber,
                 Items = items,
                 Total = items.Sum(i => i.SubTotal),
                 Status = OrderStatus.Pending,

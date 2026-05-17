@@ -1,5 +1,4 @@
 ﻿using Mini_Project1.Display;
-using Mini_Project1.Helpers;
 using Mini_Project1.Interfaces;
 using Mini_Project1.Models;
 using Mini_Project1.Repository;
@@ -21,38 +20,25 @@ namespace Mini_Project1.Services
             _products = _fileService.Read<Product>(RepositoryPaths.Products);
         }
 
-        // ──────────────────────────────────────────────
-        //  Köməkçi (Helper) metodlar
-        // ──────────────────────────────────────────────
-
-       
-        private Guid GetNextId()
-        {
-           return Guid.NewGuid();
-        }
-
-        /// <summary>
-        /// Məhsul siyahısını JSON faylına yazır (yaddaşdakı vəziyyəti saxlayır).
-        /// </summary>
         private void SaveToFile()
         {
             _fileService.Write(RepositoryPaths.Products, _products);
         }
 
-        /// <summary>
-        /// Id-yə görə məhsul axtarır. Tapılmasa null qaytarır.
-        /// Bu metod xarici servislərdən (OrderService) də çağırılır.
-        /// </summary>
+        
+        // Id-yə görə məhsul axtarır. Tapılmasa null qaytarır.
+        // Bu metod xarici servislərdən (OrderService) də çağırılır.
+        
         public Product? FindById(Guid id)
         {
             // LINQ FirstOrDefault: şərtə uyan ilk elementi qaytarır, yoxdursa null
             return _products.FirstOrDefault(p => p.Id == id);
         }
 
-        /// <summary>
-        /// Məhsulun stokunu dəyişdirdikdən sonra faylı yeniləmək üçün çağırılır.
-        /// OrderService tərəfindən sifariş zamanı istifadə olunur.
-        /// </summary>
+        
+        // Məhsulun stokunu dəyişdirdikdən sonra faylı yeniləmək üçün çağırılır.
+        // OrderService tərəfindən sifariş zamanı istifadə olunur.
+        
         public void UpdateProductStock(Product product, int soldCount)
         {
             // Stokdan satılan miqdarı çıxırıq
@@ -60,18 +46,14 @@ namespace Mini_Project1.Services
             SaveToFile();
         }
 
-        // ══════════════════════════════════════════════
-        //  1. Məhsul yarat (Create Product)
-        // ══════════════════════════════════════════════
-
-        /// <summary>
-        /// İstifadəçidən Name, Price, Stock alır, doğrulayır və məhsul yaradır.
-        /// Doğrulama qaydaları:
-        ///   • Name ən azı 1 xarakter olmalıdır
-        ///   • Eyni adlı başqa məhsul olmamalıdır
-        ///   • Price 0-dan böyük olmalıdır
-        ///   • Stock mənfi olmamalıdır
-        /// </summary>
+       
+        // İstifadəçidən Name, Price, Stock alır, doğrulayır və məhsul yaradır.
+        // Name ən azı 1 xarakter olmalıdır
+        // Eyni adlı başqa məhsul olmamalıdır
+        // Price 0-dan böyük olmalıdır
+        // Stock mənfi olmamalıdır
+        
+      
         public void CreateProduct()
         {
             Console.WriteLine("\n──── Create Product ────");
@@ -79,6 +61,13 @@ namespace Mini_Project1.Services
             // ── Ad ──
             Console.Write("Product Name: ");
             string name = Console.ReadLine()?.Trim() ?? string.Empty;
+
+            // Name 1ci number qebul etmir
+            if (char.IsDigit(name[0]))
+            {
+                Console.WriteLine("[Error] Product name cannot start with a number.");
+                return;
+            }
 
             // Boş ad yoxlaması
             if (string.IsNullOrEmpty(name))
@@ -88,9 +77,8 @@ namespace Mini_Project1.Services
             }
 
             // Unikallıq yoxlaması – case-insensitive müqayisə
-            bool nameExists = _products.Any(p =>
-                p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
-
+            bool nameExists = _products.Any(p =>p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            
             if (nameExists)
             {
                 Console.WriteLine($"[Error] A product named '{name}' already exists.");
@@ -116,7 +104,7 @@ namespace Mini_Project1.Services
             // ── Məhsul yarat ──
             var product = new Product
             {
-                //Id = GetNextId(),   
+                   
                 Name = name,
                 Price = price,
                 Stock = stock
@@ -129,13 +117,9 @@ namespace Mini_Project1.Services
             ConsoleRenderer.PrintProduct(product);
         }
 
-        // ══════════════════════════════════════════════
-        //  2. Məhsul sil (Delete Product)
-        // ══════════════════════════════════════════════
-
-        /// <summary>
+        
         /// İstifadəçidən Id alır, həmin Id-li məhsulu tapıb silir.
-        /// </summary>
+     
         public void DeleteProduct()
         {
             Console.WriteLine("\n──── Delete Product ────");
@@ -161,9 +145,7 @@ namespace Mini_Project1.Services
             Console.WriteLine($"[OK] '{product.Name}' (ID: {id}) deleted successfully.");
         }
 
-        // ══════════════════════════════════════════════
-        //  3. Id ilə məhsul axtar (Get Product By Id)
-        // ══════════════════════════════════════════════
+        
 
         /// <summary>
         /// İstifadəçidən Id alır, tapılırsa məhsul məlumatlarını göstərir.
@@ -191,14 +173,9 @@ namespace Mini_Project1.Services
             ConsoleRenderer.PrintProduct(product);
         }
 
-        // ══════════════════════════════════════════════
-        //  4. Bütün məhsulları göstər (Show All Products)
-        // ══════════════════════════════════════════════
-
-        /// <summary>
-        /// Bütün məhsulları sıra ilə çap edir.
-        /// Stoqu bitmiş məhsulların yanında "Out of Stock" yazılır.
-        /// </summary>
+        // Bütün məhsulları sıra ilə çap edir.
+        // Stoqu bitmiş məhsulların yanında "Out of Stock" yazılır.
+       
         public void ShowAllProducts()
         {
             Console.WriteLine("\n──── All Products ────");
@@ -220,14 +197,10 @@ namespace Mini_Project1.Services
             Console.WriteLine($"Total: {_products.Count} product(s)");
         }
 
-        // ══════════════════════════════════════════════
-        //  5. Stok doldur (Refill Product)
-        // ══════════════════════════════════════════════
+        
+        // İstifadəçidən Id alır, məhsul tapılırsa əlavə ediləcək stok miqdarını
+        // soruşur və mövcud stoka əlavə edir.
 
-        /// <summary>
-        /// İstifadəçidən Id alır, məhsul tapılırsa əlavə ediləcək stok miqdarını
-        /// soruşur və mövcud stoka əlavə edir.
-        /// </summary>
         public void RefillProduct()
         {
             Console.WriteLine("\n──── Refill Product ────");
@@ -244,7 +217,7 @@ namespace Mini_Project1.Services
             if (product == null)
             {
                 // Tapılmasa mesaj yazıb çıxırıq (ana menüyə qayıdılır)
-                Console.WriteLine("Product not found");
+                Console.WriteLine("[Error]Product not found");
                 return;
             }
 

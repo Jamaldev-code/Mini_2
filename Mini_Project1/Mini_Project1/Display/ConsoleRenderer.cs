@@ -18,6 +18,7 @@ namespace Mini_Project1.Display
         {
             Console.WriteLine($"  Order ID  : {o.Id}");
             Console.WriteLine($"  Email     : {o.Email}");
+            Console.WriteLine($"Phone Number: {o.PhoneNumber}");
             Console.WriteLine($"  Status    : {o.Status}");
             Console.WriteLine($"  Ordered At: {o.OrderedAt:dd.MM.yyyy HH:mm}");
             Console.WriteLine("  Items:");

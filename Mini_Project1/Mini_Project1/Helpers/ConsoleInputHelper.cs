@@ -17,6 +17,20 @@ namespace Mini_Project1.Helpers
             return false;
         }
 
+        public static bool TryReadPhone(out string phoneNumber)
+        {
+            Console.Write("Enter Phone Number: ");
+            phoneNumber = Console.ReadLine()?.Trim() ?? string.Empty;
+
+            if (string.IsNullOrWhiteSpace(phoneNumber))
+            {
+                Console.WriteLine("[Error] Phone number cannot be empty.");
+                return false;
+            }
+
+            return true;
+        }
+
         public static bool TryReadProduct(
             ProductServices productService,
             out Product? product,
