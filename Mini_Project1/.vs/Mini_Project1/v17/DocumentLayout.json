@@ -1,22 +1,46 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_project1\\mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\abstractions\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\abstractions\\ifileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\helpers\\consoleinputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\helpers\\consoleinputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\fileservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\helpers\\phonevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\helpers\\phonevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_project1\\mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\ui\\menudisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\ui\\menudisplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_project1\\mini_project1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\factories\\orderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\factories\\orderfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_project1\\mini_project1\\methods\\appmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\methods\\appmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\jamaladdinsa\\desktop\\new folder (2)\\mini_2\\mini_project1\\mini_project1\\constants\\repositorypaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\constants\\repositorypaths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +50,129 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Models\\Product.cs",
-              "RelativeToolTip": "Mini_Project1\\Models\\Product.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Services\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
+              "RelativeToolTip": "Mini_Project1\\Services\\ProductServices.cs",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAYwK0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T17:39:43.964Z",
+              "WhenOpened": "2026-05-18T17:05:41.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IFileService.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Abstractions\\IFileService.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Abstractions\\IFileService.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Abstractions\\IFileService.cs",
+              "RelativeToolTip": "Mini_Project1\\Abstractions\\IFileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:42:12.665Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductServices.cs",
-              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Services\\ProductServices.cs",
-              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
-              "RelativeToolTip": "Mini_Project1\\Services\\ProductServices.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "RepositoryPaths.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "RelativeToolTip": "Mini_Project1\\Constants\\RepositoryPaths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T17:36:45.308Z",
+              "WhenOpened": "2026-05-18T15:41:54.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderFactory.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Factories\\OrderFactory.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Factories\\OrderFactory.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Factories\\OrderFactory.cs",
+              "RelativeToolTip": "Mini_Project1\\Factories\\OrderFactory.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:41:38.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleInputHelper.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Helpers\\ConsoleInputHelper.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Helpers\\ConsoleInputHelper.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Helpers\\ConsoleInputHelper.cs",
+              "RelativeToolTip": "Mini_Project1\\Helpers\\ConsoleInputHelper.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAwwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:41:27.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\OrderServices.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Services\\OrderServices.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\OrderServices.cs",
+              "RelativeToolTip": "Mini_Project1\\Services\\OrderServices.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:40:43.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Appmanagement.cs",
-              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Methods\\Appmanagement.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Methods\\Appmanagement.cs",
-              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Methods\\Appmanagement.cs",
-              "RelativeToolTip": "Mini_Project1\\Methods\\Appmanagement.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "FileServices.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\FileServices.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Services\\FileServices.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\FileServices.cs",
+              "RelativeToolTip": "Mini_Project1\\Services\\FileServices.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T17:34:09.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:40:44.852Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Program.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Program.cs",
-              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_Project1\\Mini_Project1\\Program.cs",
-              "RelativeToolTip": "Mini_Project1\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAmwDEAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MenuDisplay.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\UI\\MenuDisplay.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\UI\\MenuDisplay.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\UI\\MenuDisplay.cs",
+              "RelativeToolTip": "Mini_Project1\\UI\\MenuDisplay.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-15T16:25:41.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T15:40:32.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PhoneValidator.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Helpers\\PhoneValidator.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Helpers\\PhoneValidator.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Helpers\\PhoneValidator.cs",
+              "RelativeToolTip": "Mini_Project1\\Helpers\\PhoneValidator.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T15:32:20.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Program.cs",
+              "ToolTip": "C:\\Users\\jamaladdinsa\\Desktop\\New folder (2)\\Mini_2\\Mini_Project1\\Mini_Project1\\Program.cs",
+              "RelativeToolTip": "Mini_Project1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T16:25:41.036Z"
             }
           ]
         }

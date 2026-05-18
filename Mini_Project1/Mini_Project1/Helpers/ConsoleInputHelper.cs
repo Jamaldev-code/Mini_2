@@ -6,6 +6,7 @@ namespace Mini_Project1.Helpers
 {
     internal static class ConsoleInputHelper
     {
+        
         public static bool TryReadEmail(out string email)
         {
             Console.Write("Your Email: ");
@@ -27,7 +28,12 @@ namespace Mini_Project1.Helpers
                 Console.WriteLine("[Error] Phone number cannot be empty.");
                 return false;
             }
-
+            if (!PhoneValidator.IsValid(phoneNumber))
+            {
+                Console.WriteLine("[Error] Invalid Azerbaijan phone number.(+994123456789)");
+                return false;
+            }
+           
             return true;
         }
 

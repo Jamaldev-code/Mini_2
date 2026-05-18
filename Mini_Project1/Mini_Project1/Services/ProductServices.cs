@@ -147,9 +147,9 @@ namespace Mini_Project1.Services
 
         
 
-        /// <summary>
-        /// İstifadəçidən Id alır, tapılırsa məhsul məlumatlarını göstərir.
-        /// </summary>
+        
+        // İstifadəçidən Id alır, tapılırsa məhsul məlumatlarını göstərir.
+        
         public void GetProductById()
         {
             Console.WriteLine("\n──── Get Product By ID ────");

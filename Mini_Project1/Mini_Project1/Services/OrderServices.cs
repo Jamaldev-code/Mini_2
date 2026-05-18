@@ -38,8 +38,14 @@ namespace Mini_Project1.Services
         {
             Console.WriteLine("\n──── Order Product ────");
 
-            if (!ConsoleInputHelper.TryReadEmail(out string email)) return;
-            if (!ConsoleInputHelper.TryReadPhone(out string phoneNumber)) return;
+            string email;
+            while (!ConsoleInputHelper.TryReadEmail(out email))
+            {
+            }
+            string phoneNumber;
+            while (!ConsoleInputHelper.TryReadPhone(out phoneNumber))
+            {
+            }
             var orderItems = new List<OrderItem>();
 
             while (true)
