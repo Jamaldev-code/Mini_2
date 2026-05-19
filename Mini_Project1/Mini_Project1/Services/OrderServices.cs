@@ -46,6 +46,7 @@ namespace Mini_Project1.Services
             while (!ConsoleInputHelper.TryReadPhone(out phoneNumber))
             {
             }
+            
             var orderItems = new List<OrderItem>();
 
             while (true)
