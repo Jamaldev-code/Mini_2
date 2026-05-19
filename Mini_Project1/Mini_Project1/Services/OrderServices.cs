@@ -1,9 +1,10 @@
 ﻿using Mini_Project1.Display;
+using Mini_Project1.Factories;
+using Mini_Project1.Helpers;
 using Mini_Project1.Interfaces;
 using Mini_Project1.Models;
 using Mini_Project1.Repository;
-using Mini_Project1.Helpers;
-using Mini_Project1.Factories;
+using Mini_Project1.UI;
 
 
 namespace Mini_Project1.Services
@@ -75,8 +76,20 @@ namespace Mini_Project1.Services
 
             Order order = OrderFactory.CreateOrder(email, phoneNumber, orderItems);
 
+            //foreach (var item in order.Items)
+            //    _productService.UpdateProductStock(item.Product, item.ProductCount);
+
             foreach (var item in order.Items)
-                _productService.UpdateProductStock(item.Product, item.ProductCount);
+            {
+                _productService.UpdateProductStock(
+                    item.Product,
+                    item.ProductCount);
+
+                if (item.Product.Stock <= 5)
+                {
+                    AlertUI.ShowLowStockNotification(item.Product);
+                }
+            }
 
             _orders.Add(order);
             SaveToFile();

@@ -1,14 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\administrator\\desktop\\20.05 - copy\\mini_2\\mini_project1\\mini_project1\\ui\\alertui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\ui\\alertui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\administrator\\desktop\\20.05 - copy\\mini_2\\mini_project1\\mini_project1\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\camal01\\desktop\\mini_2\\mini_project1\\mini_project1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\administrator\\desktop\\20.05 - copy\\mini_2\\mini_project1\\mini_project1\\ui\\startupanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\ui\\startupanimation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\administrator\\desktop\\20.05 - copy\\mini_2\\mini_project1\\mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|c:\\users\\administrator\\desktop\\20.05 - copy\\mini_2\\mini_project1\\mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F58960C-C107-431C-82EA-467E1249F349}|Mini_Project1\\Mini_Project1.csproj|solutionrelative:mini_project1\\services\\productservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +35,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderServices.cs",
-              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\OrderServices.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Services\\OrderServices.cs",
-              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\OrderServices.cs*",
-              "RelativeToolTip": "Mini_Project1\\Services\\OrderServices.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+              "Title": "AlertUI.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\UI\\AlertUI.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\UI\\AlertUI.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\UI\\AlertUI.cs*",
+              "RelativeToolTip": "Mini_Project1\\UI\\AlertUI.cs*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T16:48:28.312Z",
+              "WhenOpened": "2026-05-19T12:49:15.776Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Mini_Project1\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\Camal01\\Desktop\\Mini_2\\Mini_Project1\\Mini_Project1\\Models\\Order.cs",
-              "RelativeToolTip": "Mini_Project1\\Models\\Order.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwAIAAAATAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\Program.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\Program.cs",
+              "RelativeToolTip": "Mini_Project1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-17T15:59:49.099Z",
+              "WhenOpened": "2026-05-19T12:38:13.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StartupAnimation.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\UI\\StartupAnimation.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\UI\\StartupAnimation.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\UI\\StartupAnimation.cs",
+              "RelativeToolTip": "Mini_Project1\\UI\\StartupAnimation.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:20:17.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductServices.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Services\\ProductServices.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\ProductServices.cs",
+              "RelativeToolTip": "Mini_Project1\\Services\\ProductServices.cs",
+              "ViewState": "AgIAANgAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T17:12:35.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\OrderServices.cs",
+              "RelativeDocumentMoniker": "Mini_Project1\\Services\\OrderServices.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\20.05 - Copy\\Mini_2\\Mini_Project1\\Mini_Project1\\Services\\OrderServices.cs",
+              "RelativeToolTip": "Mini_Project1\\Services\\OrderServices.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-17T16:48:28.312Z",
               "EditorCaption": ""
             }
           ]
