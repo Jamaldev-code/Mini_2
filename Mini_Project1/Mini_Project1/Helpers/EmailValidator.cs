@@ -1,4 +1,4 @@
-﻿using System.Net.Mail; //.NET-in öz sinfidir — bütün domain-ləri düzgün yoxlayır, arasdirmisam
+﻿using System.Net.Mail;
 
 namespace Mini_Project1.Helpers
 {
@@ -6,12 +6,15 @@ namespace Mini_Project1.Helpers
     {
         public static bool IsValid(string email)
         {
+            if (string.IsNullOrWhiteSpace(email))
+                return false;
+
             try
             {
                 _ = new MailAddress(email);
                 return true;
             }
-            catch (FormatException)
+            catch
             {
                 return false;
             }

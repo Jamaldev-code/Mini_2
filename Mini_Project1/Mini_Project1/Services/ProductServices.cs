@@ -41,15 +41,39 @@ namespace Mini_Project1.Services
 
         public void UpdateProductStock(Product product, int soldCount)
         {
-            // Stokdan satılan miqdarı çıxırıq
-            product.Stock -= soldCount;
+            var existingProduct = FindById(product.Id);
+
+            if (existingProduct == null)
+            {
+                Console.WriteLine("[Error] Product not found.");
+                return;
+            }
+
+            existingProduct.Stock -= soldCount;
+
+            // Eyni objecti sync et
+            product.Stock = existingProduct.Stock;
+
+            // Mənfiyə düşməsin
+            if (existingProduct.Stock < 0)
+            {
+                existingProduct.Stock = 0;
+            }
+
             SaveToFile();
         }
+
+        //public void UpdateProductStock(Product product, int soldCount)
+        //{
+        //    // Stokdan satılan miqdarı çıxırıq
+        //    product.Stock -= soldCount;
+        //    SaveToFile();
+        //}
 
 
         //İstifadəçidən Name, Price, Stock alır, doğrulayır və məhsul yaradır.
         //Name ən azı 1 xarakter olmalıdır
-        
+
 
         //Eyni adlı başqa məhsul olmamalıdır
         //Price 0-dan böyük olmalıdır

@@ -80,17 +80,48 @@ namespace Mini_Project1.Services
             //foreach (var item in order.Items)
             //    _productService.UpdateProductStock(item.Product, item.ProductCount);
 
-            foreach (var item in order.Items)
+            while (true)
             {
-                _productService.UpdateProductStock(
-                    item.Product,
-                    item.ProductCount);
+                bool selected = ConsoleInputHelper.TryReadProduct(
+                    _productService, out var product, out int count);
 
-                if (item.Product.Stock <= 5)
+                if (!selected)
                 {
-                    AlertUI.ShowLowStockNotification(item.Product);
+                    if (product == null) break;
+                    continue;
                 }
+
+                // STOCKU DERHAL AZALT
+                _productService.UpdateProductStock(product!, count);
+
+                var item = OrderFactory.CreateItem(product!, count);
+                orderItems.Add(item);
+
+                Console.WriteLine(
+                    $"[OK] Added: {product!.Name} x{count} = ${item.SubTotal:F2}");
+
+                // Low stock notification
+                if (product.Stock <= 5)
+                {
+                    AlertUI.ShowLowStockNotification(product);
+                }
+
+                Console.Write("Add another product? (y/n): ");
+
+                if (Console.ReadLine()?.Trim().ToLower() != "y")
+                    break;
             }
+            //foreach (var item in order.Items)
+            //{
+            //    _productService.UpdateProductStock(
+            //        item.Product,
+            //        item.ProductCount);
+
+            //    if (item.Product.Stock <= 5)
+            //    {
+            //        AlertUI.ShowLowStockNotification(item.Product);
+            //    }
+            //}
 
             _orders.Add(order);
             SaveToFile();
