@@ -1,6 +1,4 @@
-﻿
-
-namespace Mini_Project1.Interfaces
+﻿namespace Mini_Project1.Abstractions
 {
     internal interface IFileService
     {
